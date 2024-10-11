@@ -159,14 +159,12 @@
   function setLayout() {
     // 각 스크롤 섹션의 높이 세팅
     for (let i = 0; i < sceneInfo.length; i++) {
-      //밑에 분기처리는 scrollHeight를 각 컨테이너마다 값을 넣어주기 위한 분기처리로 알고 있으면 됨
       if (sceneInfo[i].type === "sticky") {
         sceneInfo[i].scrollHeight = sceneInfo[i].heightNum * window.innerHeight;
       } else if (sceneInfo[i].type === "normal") {
         sceneInfo[i].scrollHeight =
           sceneInfo[i].objs.content.offsetHeight + window.innerHeight * 0.5;
       }
-      //밑에 이걸 통해서 컨테이너 높이 자체체 어느정도 높이를 줄건지 값을 처리 해주는 과정
       sceneInfo[
         i
       ].objs.container.style.height = `${sceneInfo[i].scrollHeight}px`;
