@@ -189,7 +189,7 @@ body.before-load {
 }
 .sticky-elem-canvas canvas {
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 50%;
 }
 #scroll-section-3 {

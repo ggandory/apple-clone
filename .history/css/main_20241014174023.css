@@ -191,6 +191,7 @@ body.before-load {
   position: absolute;
   top: 50%;
   left: 50%;
+  margin-top: 100px;
 }
 #scroll-section-3 {
   display: flex;

@@ -578,7 +578,7 @@
               values.canvas_scale,
               currentYOffset
             )})`;
-            objs.canvas.style.marginTop = 0;
+            objs.canvas.style.marginTop = 150;
           }
 
           if (
